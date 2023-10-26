@@ -1,0 +1,99 @@
+{
+    "status": 200,
+    "success": true,
+    "data": {
+        "id": 2002009556,
+        "order_id": 1030926478,
+        "order_reference_id": 87686187,
+        "created_at": {
+            "date": "2023-10-25 14:48:14.000000",
+            "timezone_type": 3,
+            "timezone": "Asia/Riyadh"
+        },
+        "type": "shipment",
+        "courier_id": 1173669254,
+        "courier_name": "اشحن نقدا",
+        "courier_logo": "",
+        "shipping_number": "27099931009",
+        "tracking_number": "27099931009",
+        "pickup_id": null,
+        "trackable": true,
+        "tracking_link": "https://odat.com/labels/27099931009/track",
+        "label": null,
+        "payment_method": "bank",
+        "source": "dashboard",
+        "status": "created",
+        "total": {
+            "amount": 83,
+            "currency": "SAR"
+        },
+        "cash_on_delivery": {
+            "amount": 0,
+            "currency": "SAR"
+        },
+        "is_international": false,
+        "total_weight": {
+            "value": 1,
+            "units": "kg"
+        },
+        "packages": [
+            {
+                "item_id": 895051772,
+                "external_id": null,
+                "name": "test",
+                "sku": "",
+                "price": {
+                    "amount": 50,
+                    "currency": "SAR"
+                },
+                "quantity": 1,
+                "weight": {
+                    "value": 1,
+                    "units": "kg"
+                }
+            }
+        ],
+        "ship_from": {
+            "type": "branch",
+            "name": "الفرع الرئيسي",
+            "email": "",
+            "phone": "966920034002",
+            "country": "السعودية",
+            "country_id": 1473353380,
+            "country_code": "SA",
+            "city": "Mecca",
+            "city_id": 1939592358,
+            "address_line": "Mecca,السعودية",
+            "street_number": null,
+            "block": null,
+            "postal_code": null,
+            "latitude": 21.3825905096851,
+            "longitude": 39.77319103068542,
+            "branch_id": 1301866310
+        },
+        "ship_to": {
+            "type": "address",
+            "name": "Del Don",
+            "email": "xdel1010@gmail.com",
+            "phone": "971555555555",
+            "country": "السعودية",
+            "country_id": 1473353380,
+            "country_code": "SA",
+            "city": "Riyadh",
+            "city_id": 1473353380,
+            "address_line": " شارع يي، الحي يي يي،, يي,, الرياض, 
+السعودية",
+            "street_number": "يي",
+            "block": "يي",
+            "postal_code": "يي",
+            "latitude": 0,
+            "longitude": 0
+        },
+        "meta": {
+            "app_id": 115397889,
+            "policy_options": {
+                "boxes": 1
+            }
+        }
+    }
+}

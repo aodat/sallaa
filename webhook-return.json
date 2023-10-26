@@ -1,0 +1,266 @@
+{
+    "event": "order.shipment.return.creating",
+    "merchant": 1603545009,
+    "created_at": "Thu Oct 26 2023 11:42:45 GMT+0300",
+    "data": {
+        "id": 752531508,
+        "reference_id": 87711377,
+        "urls": {
+            "customer": "https://salla.sa/dev-suvsdkmjkvnvph8z/order/58jOxmqryYBVMJdx5Dxa0NE7RDb9L6gZ",
+            "admin": "https://s.salla.sa/orders/order/58jOxmqryYBVMJdx5Dxa0NE7RDb9L6gZ"
+        },
+        "date": {
+            "date": "2023-10-25 16:53:07.000000",
+            "timezone_type": 3,
+            "timezone": "Asia/Riyadh"
+        },
+        "source": "dashboard",
+        "source_device": "desktop",
+        "source_details": {
+            "type": "dashboard",
+            "value": null,
+            "device": "desktop",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+            "ip": null
+        },
+        "first_complete_at": null,
+        "status": {
+            "id": 1723506348,
+            "name": "تم التوصيل",
+            "slug": "delivered"
+        },
+        "is_price_quote": false,
+        "payment_method": "bank",
+        "currency": "SAR",
+        "amounts": {
+            "sub_total": {
+                "amount": 50,
+                "currency": "SAR"
+            },
+            "shipping_cost": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "cash_on_delivery": {
+                "amount": 0,
+                "currency": "SAR"
+            },
+            "tax": {
+                "percent": "0.00",
+                "amount": {
+                    "amount": 0,
+                    "currency": "SAR"
+                }
+            },
+            "discounts": [],
+            "total": {
+                "amount": 50,
+                "currency": "SAR"
+            }
+        },
+        "shipping": {
+            "id": 1173669254,
+            "app_id": "115397889",
+            "company": "اشحن نقدا",
+            "logo": "",
+            "receiver": {
+                "name": "الفرع الرئيسي",
+                "email": "",
+                "phone": "966920034002"
+            },
+            "shipper": {
+                "name": "Del Don",
+                "company_name": null,
+                "email": "xdel1010@gmail.com",
+                "phone": "971555555555"
+            },
+            "pickup_address": {
+                "country": "SA",
+                "country_code": "SA",
+                "city": "الرياض",
+                "shipping_address": " شارع قثل، الحي صل ،, الرياض, السعودية",
+                "street_number": "قثل",
+                "block": "صل",
+                "postal_code": "",
+                "geo_coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                }
+            },
+            "address": {
+                "country": "السعودية",
+                "country_code": "SA",
+                "city": "Mecca",
+                "shipping_address": "Mecca,السعودية",
+                "street_number": null,
+                "block": null,
+                "postal_code": null,
+                "geo_coordinates": {
+                    "lat": 21.3825905096851,
+                    "lng": 39.77319103068542
+                }
+            },
+            "shipment": {
+                "id": "45221516251",
+                "pickup_id": null,
+                "tracking_link": "https://odat.com/labels/45221516251/track",
+                "label": []
+            },
+            "policy_options": {
+                "boxes": 1
+            },
+            "shipment_reference": 344113495,
+            "branch_id": 1301866310
+        },
+        "shipments": [
+            {
+                "id": 344113495,
+                "created_at": {
+                    "date": "2023-10-26 11:17:00.000000",
+                    "timezone_type": 3,
+                    "timezone": "Asia/Riyadh"
+                },
+                "type": "shipment",
+                "courier_id": 1173669254,
+                "courier_name": "اشحن نقدا",
+                "courier_logo": "",
+                "shipping_number": "45221516251",
+                "tracking_number": "45221516251",
+                "pickup_id": null,
+                "trackable": true,
+                "tracking_link": "https://odat.com/labels/45221516251/track",
+                "label": null,
+                "payment_method": "bank",
+                "source": "dashboard",
+                "status": "delivered",
+                "total": {
+                    "amount": 50,
+                    "currency": "SAR"
+                },
+                "cash_on_delivery": {
+                    "amount": 0,
+                    "currency": "SAR"
+                },
+                "is_international": false,
+                "total_weight": {
+                    "value": 1,
+                    "units": "kg"
+                },
+                "packages": [
+                    {
+                        "item_id": 1460239585,
+                        "external_id": null,
+                        "name": "test",
+                        "sku": "",
+                        "price": {
+                            "amount": 50,
+                            "currency": "SAR"
+                        },
+                        "quantity": 1,
+                        "weight": {
+                            "value": 1,
+                            "units": "kg"
+                        }
+                    }
+                ],
+                "ship_from": {
+                    "type": "branch",
+                    "name": "الفرع الرئيسي",
+                    "email": "",
+                    "phone": "966920034002",
+                    "country": "السعودية",
+                    "country_id": 1473353380,
+                    "country_code": "SA",
+                    "city": "Mecca",
+                    "city_id": 1939592358,
+                    "address_line": "Mecca,السعودية",
+                    "street_number": null,
+                    "block": null,
+                    "postal_code": null,
+                    "latitude": 21.3825905096851,
+                    "longitude": 39.77319103068542,
+                    "branch_id": 1301866310
+                },
+                "ship_to": {
+                    "type": "address",
+                    "name": "Del Don",
+                    "email": "xdel1010@gmail.com",
+                    "phone": "971555555555",
+                    "country": "السعودية",
+                    "country_id": 1473353380,
+                    "country_code": "SA",
+                    "city": "Riyadh",
+                    "city_id": 1473353380,
+                    "address_line": " شارع قثل، الحي صل ،, الرياض, السعودية",
+                    "street_number": "قثل",
+                    "block": "صل",
+                    "postal_code": "",
+                    "latitude": 0,
+                    "longitude": 0
+                },
+                "meta": {
+                    "app_id": 115397889,
+                    "policy_options": {
+                        "boxes": 1
+                    }
+                }
+            }
+        ],
+        "can_cancel": false,
+        "show_weight": false,
+        "can_reorder": false,
+        "is_pending_payment": false,
+        "pending_payment_ends_at": 105021,
+        "total_weight": "١ كجم",
+        "rating_link": "https://salla.sa/dev-suvsdkmjkvnvph8z/rating/752531508?expires=1698568965&&signature=19dfb76a17cf673954198a69dd089a1ee725a9a79c1aed4deb2ed020ebaefdbe",
+        "shipment_branch": [
+            {
+                "id": 1301866310,
+                "name": "الفرع الرئيسي",
+                "status": "active",
+                "is_default": true,
+                "type": {}
+            }
+        ],
+        "customer": {
+            "id": 1550968832,
+            "name": "Del Don",
+            "mobile": "971555555555",
+            "email": "xdel1010@gmail.com",
+            "avatar": "https://cdn.assets.salla.network/admin/cp/assets/images/avatar_male.png",
+            "country": "السعودية",
+            "city": "الرياض"
+        },
+        "items": [
+            {
+                "id": 1460239585,
+                "product_id": 1944534748,
+                "name": "test",
+                "sku": "",
+                "quantity": 1,
+                "weight": 1,
+                "amounts": {
+                    "price_without_tax": {
+                        "amount": 50,
+                        "currency": "SAR"
+                    },
+                    "total_discount": {
+                        "amount": 0,
+                        "currency": "SAR"
+                    },
+                    "tax": {
+                        "percent": "0.00",
+                        "amount": {
+                            "amount": 0,
+                            "currency": "SAR"
+                        }
+                    },
+                    "total": {
+                        "amount": 50,
+                        "currency": "SAR"
+                    }
+                }
+            }
+        ]
+    }
+}
